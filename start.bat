@@ -41,7 +41,7 @@ IF ERRORLEVEL 1 (
 
 :: Check for script updates on GitHub
 echo Checking for the latest version of the script on GitHub...
-set SCRIPT_URL=https://raw.githubusercontent.com/your-username/your-repo/main/qr.py
+set SCRIPT_URL=https://github.com/tgeorgebogdan/QR-Generator/blob/main/qr.py
 set SCRIPT_NAME=qr.py
 curl -s -o %SCRIPT_NAME% %SCRIPT_URL% >nul 2>&1
 IF ERRORLEVEL 1 (
